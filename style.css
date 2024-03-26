@@ -1,0 +1,398 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/* body{
+  background: linear-gradient(330deg, #9552cb, #5331af, #1608c1);
+}
+ */
+
+
+/* ******************header********************************** */
+header{
+width: 100%;
+background-color: #411616;  
+display: flex;
+justify-content: center;
+align-items: center;                       
+
+}
+/* **********************LOGO IMAGEN******************************* */
+.logo{
+  width: 150px;
+  height: 150px;
+  border-radius:75px;
+  opacity: 0.7;
+  margin: 0px 25px 0px 0px;
+  
+
+} 
+
+/**********************SEARCH BAR************************* */
+
+#form1{
+  background-color: #ffffff;
+  width: 300px;
+  height: 44px;
+  border-radius: 5px;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+}
+
+input {
+  font: 16px;
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px;
+}
+
+button {
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+}
+
+.iconosearch{
+  text-align: center;
+}
+
+.nav{
+  padding: 10px;
+  text-align: center;
+  background-color: #e7e7e7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family:sans-serif;
+  margin-bottom:40px ;
+}
+
+.nav-text{
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px;
+  
+}
+
+.nav-text:hover{
+  background-color: rgb(201, 198, 198);
+
+}
+
+/* ****************************navegacion principal************************** */
+
+.contenedorprincipal{
+padding: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.IMGprincipalbox{
+ width: 60%;
+}
+
+.imgprincipal{
+  width: 100%;
+  border-radius: 5px;
+}
+
+/**********************Form consulta************************* */
+.hr1{
+  background-color: #dbedf5;
+  padding: 3px;
+  height: 1px;
+  margin-bottom: 1.5em;
+  width: 80%;
+  display: block;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
+
+.form2{
+  margin: auto;
+  padding: 15px;
+  text-align: right;
+  width: 82%;
+}
+
+.form2 select{
+ padding: 10px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/* ********************************MENUS******************************** */
+
+ 
+.contenedor2{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 15px;   
+}
+
+.conenedor-deimg2{
+  padding: 35px;
+
+
+}
+
+
+.imgmenu2{
+width: 350px;
+height: 400px;
+margin-top: 25px;
+
+}
+
+.textmenu2{
+text-align: center;
+text-transform: uppercase;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 25px;
+}
+
+.textmenu-2{
+  background-color: skyblue;
+  text-align: center;
+text-transform: uppercase;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 25px;
+}
+/* 
+********************Footer*********************** */
+footer{
+  background-color: #411616;
+}
+
+.footer-contenedor{
+width: 100%;
+padding: 70px 30px 20px;
+
+}
+
+.socialIcons{
+  display: flex;
+  justify-content: center;
+}
+
+.socialIcons a{
+ text-decoration: none;
+ padding: 10px;
+ margin: 10px;
+ background-color: white; 
+ border-radius: 50%;
+}
+
+
+.socialIcons a i{
+  font-size: 2em;
+  color: #111;
+  opacity: 0.9;
+}
+
+hr{
+  background-color: #ccc;
+  border: 0;
+  height: 1px;
+  margin-bottom: 1.5em;
+  width: 50%;
+  display: block;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
+
+/**********************Formulario final************************* */
+.contenedorr{
+  display: flex;
+  justify-content: center;
+}
+.subC{
+  background-color:rgb(146, 79, 17);
+  width: 24%;
+  padding: 25px;
+ 
+
+}
+
+
+.infoC ul{
+  text-align: center;
+  list-style: none;
+  padding: 10px;
+  margin: 15px;
+  
+}
+
+.infoC ul li{
+  color: rgb(226, 226, 226);
+  font-size: 2em;
+}
+
+.infoC ul li{
+  margin: 15px;
+}
+
+.subC2{
+  background-color:#e9f0fa;
+  width: 24%;
+  padding: 25px;
+}
+
+.subC2 ul li{
+  color: #111;
+}
+
+
+.imgiconosP{
+  text-align: center;
+}
+.imgiconos img{
+  margin: 10px;
+  width: 50px;
+  border-radius: 50px;
+}
+
+.infoC2{
+  display: flex;
+  justify-content: center;
+}
+.sendemail{
+  width: 50%;
+}
+
+.buttons input{
+  padding: 15px;
+}
+
+.btn1{
+  padding: 15px;
+  background-color: rgb(28, 28, 204);
+  color: white;
+}
+
+.btn1:hover{
+  background-color: rgb(11, 11, 85);
+  color: white;
+  transition: 0.4s;
+}
+/* 
+****************hover efect en iconos*************** */
+.socialIcons a:hover{
+  background-color: #111;
+  transition: 0.5s;
+
+}
+
+.socialIcons a:hover i{
+  color: white;
+  transition: 0.5s;
+
+}
+
+.contenedor-footer-nav{
+margin: 30px 0px;
+}
+
+.contenedor-footer-nav ul{
+display: flex;
+justify-content: center;
+list-style: none;
+
+}
+
+.contenedor-footer-nav ul li a{
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0,5s;
+
+}
+
+.contenedor-footer-nav ul li a:hover{
+  opacity: 1;
+
+}
+
+
+
+.footer-bottom{
+  background-color: #220e0e;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-bottom p{
+  color: white;
+}
+
+.disenador{
+opacity: 0.7;
+text-transform: uppercase;
+letter-spacing: 5px;
+margin:0px 5px;
+transition: 0,5s;
+}
+
+.disenador:hover{
+  color: aqua;
+}
+
+.name{
+  text-align: center;
+}
+
+/**********************Form final************************* */
+.cntp{
+  text-align: center;
+  background-color: rgb(233, 232, 232);
+  padding: 15px;
+
+}
+
+.title{
+  font-size: 1.3em;
+}
+
+.box-edit{
+border-radius: 15px;
+width: 25%;
+padding: 15px 0px;
+
+}
+
+textarea{
+  resize: none; 
+  width: 50%;
+}
+
+.button1{
+  background-color: rgb(95, 95, 219);
+  width: 50%;
+  padding: 10px;
+  transition: 0.4s;
+}
+
+.button1:hover{
+  background-color: #1e1964;
+  color: yellow;
+  transition: 0.5s;
+
+}
+
+.p{
+  text-align: center;
+  width: 58%;
+}
+
+
+@media (max-width: 700px){
+.menu2{ width: 100%;
+}
+}
